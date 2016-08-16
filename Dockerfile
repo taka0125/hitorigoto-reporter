@@ -6,7 +6,7 @@ ENV WORKDIR /app
 RUN mkdir $WORKDIR
 WORKDIR $WORKDIR
 
-ARG run_at=50\t23\t*\t*\t*\t
+ARG run_at=03\t0\t*\t*\t*\t
 
 RUN apk add --update --virtual build-dependencies \
         g++ \
